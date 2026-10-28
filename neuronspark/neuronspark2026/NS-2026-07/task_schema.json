@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NS-2026-07 public task",
+  "type": "object",
+  "required": [
+    "id",
+    "version",
+    "task_type",
+    "object_nominal",
+    "environment_context",
+    "task_combo",
+    "object",
+    "start_pose",
+    "target_pose",
+    "max_steps"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "version": {
+      "const": "NS-2026-07-r20260525-08-gpu-vision-stages"
+    },
+    "task_type": {
+      "enum": [
+        "nonprehensile_relocation",
+        "tool_use",
+        "resource_sequence"
+      ]
+    },
+    "object_nominal": {
+      "type": "object",
+      "required": [
+        "shape",
+        "family",
+        "mass_bucket",
+        "surface",
+        "fragility",
+        "size_m"
+      ],
+      "properties": {
+        "shape": {
+          "type": "string"
+        },
+        "family": {
+          "enum": [
+            "prismatic",
+            "curved",
+            "deformable_or_asymmetric",
+            "unknown"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "environment_context": {
+      "type": "object",
+      "required": [
+        "surface_fixture",
+        "workspace_layout",
+        "sensor_noise_hint",
+        "proxy_render_profile"
+      ],
+      "additionalProperties": true
+    },
+    "task_combo": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "state_feedback_relocation",
+          "tool_contact",
+          "finger_resource_scheduling",
+          "long_horizon_stage_planning"
+        ]
+      }
+    },
+    "capability_tier": {
+      "enum": [
+        "base_state_feedback",
+        "tactile_slip_recovery",
+        "cross_condition_generalization"
+      ]
+    },
+    "benchmark_axes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "max_steps": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 128
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NS-2026-07 agent action",
+  "type": "object",
+  "required": [
+    "primitive",
+    "finger",
+    "force",
+    "direction"
+  ],
+  "properties": {
+    "primitive": {
+      "type": "string",
+      "enum": [
+        "brace",
+        "push",
+        "drag",
+        "pivot",
+        "roll",
+        "lift_edge",
+        "tap",
+        "stabilize",
+        "wait",
+        "finish"
+      ]
+    },
+    "finger": {
+      "type": "string",
+      "enum": [
+        "thumb",
+        "index",
+        "middle",
+        "ring",
+        "pinky",
+        "palm",
+        "wrist"
+      ]
+    },
+    "force": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "direction": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "number"
+        }
+      ],
+      "minItems": 2,
+      "maxItems": 2
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,1 @@
+OK: agent.py defines a loadable Agent and returns a legal action on a sample observation.

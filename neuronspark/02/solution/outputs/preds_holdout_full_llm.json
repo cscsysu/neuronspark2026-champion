@@ -1,0 +1,657 @@
+[
+  {
+    "id": "train_0375",
+    "answer": "不能外借",
+    "citations": [
+      "LIB-RARE-001"
+    ]
+  },
+  {
+    "id": "train_0376",
+    "answer": "7天",
+    "citations": [
+      "LIB-ROOM-001"
+    ]
+  },
+  {
+    "id": "train_0377",
+    "answer": "提前3天",
+    "citations": [
+      "HEALTH-NUTRI-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0378",
+    "answer": "算力服务平台工单系统",
+    "citations": [
+      "COMPUTE-STORAGE-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0379",
+    "answer": "45天",
+    "citations": [
+      "ACCESS-LIB-001"
+    ]
+  },
+  {
+    "id": "train_0380",
+    "answer": "提前6个工作日",
+    "citations": [
+      "AURORA-HALL-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0381",
+    "answer": "采购单号和收货房间",
+    "citations": [
+      "MAIL-LARGE-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0382",
+    "answer": "提前1个工作日",
+    "citations": [
+      "GREEN-POSTER-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0383",
+    "answer": "A2",
+    "citations": [
+      "CLUB-POSTER-001"
+    ]
+  },
+  {
+    "id": "train_0384",
+    "answer": "不能外借",
+    "citations": [
+      "LIB-RARE-001"
+    ]
+  },
+  {
+    "id": "train_0385",
+    "answer": "12个月",
+    "citations": [
+      "LAB-CHEM-001"
+    ]
+  },
+  {
+    "id": "train_0386",
+    "answer": "超期转交保密办公室暂存",
+    "citations": [
+      "MAIL-SECURE-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0387",
+    "answer": "登记过的加密U盘",
+    "citations": [
+      "NET-DATA-001"
+    ]
+  },
+  {
+    "id": "train_0388",
+    "answer": "绿色校园办公室物资间",
+    "citations": [
+      "GREEN-POSTER-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0389",
+    "answer": "90分钟",
+    "citations": [
+      "ORBIT-LASER-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0390",
+    "answer": "卸货窗口最长1小时",
+    "citations": [
+      "MAIL-LARGE-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0391",
+    "answer": "1小时",
+    "citations": [
+      "EXCHANGE-ROOM-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0392",
+    "answer": "单程约35分钟",
+    "citations": [
+      "SHUTTLE-NIGHT-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0393",
+    "answer": "0.20元",
+    "citations": [
+      "LIB-BORROW-002"
+    ]
+  },
+  {
+    "id": "train_0394",
+    "answer": "实习路线单和安全责任书",
+    "citations": [
+      "SHUTTLE-FIELD-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0395",
+    "answer": "超限任务自动终止并冷却12小时",
+    "citations": [
+      "COMPUTE-GPU-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0396",
+    "answer": "无法根据给定知识库回答",
+    "citations": []
+  },
+  {
+    "id": "train_0397",
+    "answer": "算力服务平台工单系统",
+    "citations": [
+      "COMPUTE-STORAGE-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0398",
+    "answer": "2小时",
+    "citations": [
+      "CAREER-FAIR-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0399",
+    "answer": "主讲人名单和现场负责人电话",
+    "citations": [
+      "AURORA-HALL-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0400",
+    "answer": "东门物流登记岗",
+    "citations": [
+      "MAIL-LARGE-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0401",
+    "answer": "提前5个工作日",
+    "citations": [
+      "EXCHANGE-SEAL-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0402",
+    "answer": "10:00",
+    "citations": [
+      "COURSE-WAIT-001"
+    ]
+  },
+  {
+    "id": "train_0403",
+    "answer": "虚假材料将冻结认定资格一个学期",
+    "citations": [
+      "VOLUNTEER-CREDIT-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0404",
+    "answer": "当月不再接受加急预约",
+    "citations": [
+      "HEALTH-NUTRI-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0405",
+    "answer": "不能",
+    "citations": [
+      "LAB-LN2-001"
+    ]
+  },
+  {
+    "id": "train_0406",
+    "answer": "近30天体测报告",
+    "citations": [
+      "HEALTH-NUTRI-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0407",
+    "answer": "2次",
+    "citations": [
+      "SPORT-COURT-001"
+    ]
+  },
+  {
+    "id": "train_0408",
+    "answer": "简历和目标岗位说明",
+    "citations": [
+      "CAREER-MOCK-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0409",
+    "answer": "40人",
+    "citations": [
+      "CLUB-ROOM-001"
+    ]
+  },
+  {
+    "id": "train_0410",
+    "answer": "职业发展中心活动管理系统",
+    "citations": [
+      "CAREER-FAIR-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0411",
+    "answer": "14天",
+    "citations": [
+      "LIB-BORROW-002"
+    ]
+  },
+  {
+    "id": "train_0412",
+    "answer": "课程或实验预约凭证",
+    "citations": [
+      "SHUTTLE-NIGHT-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0413",
+    "answer": "投放前2小时",
+    "citations": [
+      "GREEN-WASTE-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0414",
+    "answer": "A2",
+    "citations": [
+      "CLUB-POSTER-001"
+    ]
+  },
+  {
+    "id": "train_0415",
+    "answer": "2个工作日办结",
+    "citations": [
+      "EXCHANGE-SEAL-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0416",
+    "answer": "1台",
+    "citations": [
+      "EQUIP-LAPTOP-001"
+    ]
+  },
+  {
+    "id": "train_0417",
+    "answer": "虚假申请将取消当年资助资格",
+    "citations": [
+      "SCHOLARSHIP-AID-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0418",
+    "answer": "采购单号和收货房间",
+    "citations": [
+      "MAIL-LARGE-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0419",
+    "answer": "提前10个工作日",
+    "citations": [
+      "SHUTTLE-FIELD-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0420",
+    "answer": "材料：签到记录和服务单位证明；对象：参加校内外公益活动的学生",
+    "citations": [
+      "VOLUNTEER-CREDIT-CHECK-001",
+      "VOLUNTEER-CREDIT-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0421",
+    "answer": "发车前2小时",
+    "citations": [
+      "SHUTTLE-NIGHT-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0422",
+    "answer": "至少提前2小时",
+    "citations": [
+      "LIB-ROOM-002"
+    ]
+  },
+  {
+    "id": "train_0423",
+    "answer": "双人审批；手机封存",
+    "citations": [
+      "QUARTZ-DATA-001",
+      "QUARTZ-DATA-002"
+    ]
+  },
+  {
+    "id": "train_0424",
+    "answer": "7天",
+    "citations": [
+      "SPORT-COURT-001"
+    ]
+  },
+  {
+    "id": "train_0425",
+    "answer": "无法根据给定知识库回答",
+    "citations": []
+  },
+  {
+    "id": "train_0426",
+    "answer": "5台",
+    "citations": [
+      "NET-WIFI-001"
+    ]
+  },
+  {
+    "id": "train_0427",
+    "answer": "提前5天",
+    "citations": [
+      "HEALTH-SLEEP-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0428",
+    "answer": "无法根据给定知识库回答",
+    "citations": []
+  },
+  {
+    "id": "train_0429",
+    "answer": "学生发展中心志愿服务窗口",
+    "citations": [
+      "VOLUNTEER-CREDIT-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0430",
+    "answer": "无法根据给定知识库回答",
+    "citations": []
+  },
+  {
+    "id": "train_0431",
+    "answer": "数据管理计划和项目编号",
+    "citations": [
+      "COMPUTE-STORAGE-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0432",
+    "answer": "材料退回后需重新排队",
+    "citations": [
+      "EXCHANGE-SEAL-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0433",
+    "answer": "2次",
+    "citations": [
+      "LIB-BORROW-001",
+      "LIB-BORROW-002"
+    ]
+  },
+  {
+    "id": "train_0434",
+    "answer": "任务开始前可取消",
+    "citations": [
+      "COMPUTE-GPU-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0435",
+    "answer": "提前6小时",
+    "citations": [
+      "ORBIT-LASER-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0436",
+    "answer": "22:30至次日7:00",
+    "citations": [
+      "DORM-QUIET-001"
+    ]
+  },
+  {
+    "id": "train_0437",
+    "answer": "提前24小时",
+    "citations": [
+      "AURORA-HALL-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0438",
+    "answer": "提前2个工作日；创客空间北侧加工间；90分钟",
+    "citations": [
+      "ORBIT-LASER-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0439",
+    "answer": "简历和目标岗位说明",
+    "citations": [
+      "CAREER-MOCK-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0440",
+    "answer": "90分钟",
+    "citations": [
+      "ORBIT-LASER-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0441",
+    "answer": "综合服务大厅保密收寄柜台",
+    "citations": [
+      "MAIL-SECURE-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0442",
+    "answer": "职业发展中心咨询室5",
+    "citations": [
+      "CAREER-MOCK-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0443",
+    "answer": "录用通知、参会证明和票据",
+    "citations": [
+      "SCHOLARSHIP-TRAVEL-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0444",
+    "answer": "单个作业最长6小时",
+    "citations": [
+      "COMPUTE-GPU-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0445",
+    "answer": "提前5个工作日",
+    "citations": [
+      "NET-DATA-001"
+    ]
+  },
+  {
+    "id": "train_0446",
+    "answer": "提前5天",
+    "citations": [
+      "HEALTH-SLEEP-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0447",
+    "answer": "算力服务平台教学队列",
+    "citations": [
+      "COMPUTE-GPU-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0448",
+    "answer": "学校VPN",
+    "citations": [
+      "NET-VPN-001"
+    ]
+  },
+  {
+    "id": "train_0449",
+    "answer": "当天",
+    "citations": [
+      "SPORT-POOL-001"
+    ]
+  },
+  {
+    "id": "train_0450",
+    "answer": "材料：面试邀请邮件；对象：参加海外院校远程面试的学生",
+    "citations": [
+      "EXCHANGE-ROOM-CHECK-001",
+      "EXCHANGE-ROOM-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0451",
+    "answer": "至少提前2个工作日",
+    "citations": [
+      "LIB-RARE-001"
+    ]
+  },
+  {
+    "id": "train_0452",
+    "answer": "2个工作日",
+    "citations": [
+      "ARCH-CERT-001"
+    ]
+  },
+  {
+    "id": "train_0453",
+    "answer": "到件后3个工作日内",
+    "citations": [
+      "MAIL-SECURE-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0454",
+    "answer": "项目录取通知和学院初审意见",
+    "citations": [
+      "EXCHANGE-SEAL-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0455",
+    "answer": "学生资助中心2号窗口",
+    "citations": [
+      "SCHOLARSHIP-AID-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0456",
+    "answer": "7天",
+    "citations": [
+      "SPORT-COURT-001",
+      "LIB-ROOM-002"
+    ]
+  },
+  {
+    "id": "train_0457",
+    "answer": "到件后3个工作日内",
+    "citations": [
+      "MAIL-SECURE-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0458",
+    "answer": "1个工作日；2天",
+    "citations": [
+      "EQUIP-CAMERA-001",
+      "EQUIP-CAMERA-OLD"
+    ]
+  },
+  {
+    "id": "train_0459",
+    "answer": "24小时内",
+    "citations": [
+      "COURSE-WAIT-001"
+    ]
+  },
+  {
+    "id": "train_0460",
+    "answer": "学校VPN",
+    "citations": [
+      "NET-VPN-001"
+    ]
+  },
+  {
+    "id": "train_0461",
+    "answer": "项目录取通知和学院初审意见",
+    "citations": [
+      "EXCHANGE-SEAL-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0462",
+    "answer": "综合服务大厅保密收寄柜台",
+    "citations": [
+      "MAIL-SECURE-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0463",
+    "answer": "数据管理计划和项目编号",
+    "citations": [
+      "COMPUTE-STORAGE-CHECK-001"
+    ]
+  },
+  {
+    "id": "train_0464",
+    "answer": "2次",
+    "citations": [
+      "SPORT-COURT-001"
+    ]
+  },
+  {
+    "id": "train_0465",
+    "answer": "不允许；连续不得超过2个单元",
+    "citations": [
+      "CYAN-BIO-001",
+      "CYAN-BIO-002"
+    ]
+  },
+  {
+    "id": "train_0466",
+    "answer": "2个工作日办结",
+    "citations": [
+      "EXCHANGE-SEAL-ACCESS-001"
+    ]
+  },
+  {
+    "id": "train_0467",
+    "answer": "无法根据给定知识库回答",
+    "citations": []
+  },
+  {
+    "id": "train_0468",
+    "answer": "入校前4小时",
+    "citations": [
+      "MAIL-LARGE-CHECK-001"
+    ]
+  }
+]

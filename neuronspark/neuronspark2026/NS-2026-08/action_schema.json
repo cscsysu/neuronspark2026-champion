@@ -1,0 +1,31 @@
+{
+  "schema_version": "NS-2026-08-r20260525-07-score-calibrated",
+  "submission_file": "agent.py",
+  "interface": "class Agent with reset(task_info) and act(observation)",
+  "action_types": [
+    "SCALE",
+    "ROLLBACK_RELEASE",
+    "ROLLBACK_CONFIG",
+    "RESTART",
+    "CIRCUIT_BREAK",
+    "SET_TIMEOUT",
+    "WARM_CACHE",
+    "REBUILD_INDEX",
+    "DRAIN_QUEUE",
+    "THROTTLE",
+    "DIAGNOSTIC_PROBE",
+    "NOOP"
+  ],
+  "limits": {
+    "one_action_per_step": true,
+    "horizon": 48,
+    "cooldowns_and_side_effects": true,
+    "diagnostic_probe_delayed": true
+  },
+  "values": {
+    "SCALE": "integer replica count within target max_replicas",
+    "THROTTLE": "integer percent in [0, 60]",
+    "SET_TIMEOUT": "one of 100, 250, 500, 750, 1000, 1500",
+    "DIAGNOSTIC_PROBE": "target service; returns delayed noisy probe_results with source_hint, confidence buckets and coarse action_hint in later observations"
+  }
+}

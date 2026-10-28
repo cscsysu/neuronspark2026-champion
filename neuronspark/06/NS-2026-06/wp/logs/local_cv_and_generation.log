@@ -1,0 +1,35 @@
+fold=1 macro_f1=0.91109 priority_recall=0.90588 score_like=1101.16
+fold=2 macro_f1=0.90119 priority_recall=0.90476 score_like=1092.02
+fold=3 macro_f1=0.88254 priority_recall=0.88095 score_like=1070.47
+fold=4 macro_f1=0.89821 priority_recall=0.92857 score_like=1094.10
+fold=5 macro_f1=0.85777 priority_recall=0.85882 score_like=1043.76
+
+OOF tuned macro_f1=0.89016 priority_recall=0.89573 score_like=1080.29
+source_to_label: {"sg_00": "mobility_vehicle", "sg_01": "system_software", "sg_02": "space_science", "sg_03": "computer_hardware", "sg_04": "mobility_vehicle", "sg_05": "medical_health", "sg_06": "computer_hardware", "sg_07": "system_software", "sg_08": "sports_recreation", "sg_09": "sports_recreation"}
+class_multipliers: {"computer_hardware": 1.3, "medical_health": 1.6, "mobility_vehicle": 0.85, "space_science": 1.05, "sports_recreation": 0.95, "system_software": 0.95}
+
+classification report:
+                   precision    recall  f1-score   support
+
+computer_hardware     0.8222    0.8894    0.8545       208
+  system_software     0.8877    0.7981    0.8405       208
+ mobility_vehicle     0.9124    0.8939    0.9031       198
+sports_recreation     0.9469    0.9655    0.9561       203
+   medical_health     0.8696    0.9259    0.8969       108
+    space_science     0.9029    0.8774    0.8900       106
+
+         accuracy                         0.8894      1031
+        macro avg     0.8903    0.8917    0.8902      1031
+     weighted avg     0.8905    0.8894    0.8891      1031
+
+confusion matrix rows=true cols=pred labels= ['computer_hardware', 'system_software', 'mobility_vehicle', 'sports_recreation', 'medical_health', 'space_science']
+[[185  16   4   1   2   0]
+ [ 33 166   4   0   4   1]
+ [  3   1 177   6   5   6]
+ [  1   1   5 196   0   0]
+ [  1   2   1   1 100   3]
+ [  2   1   3   3   4  93]]
+
+wrote results.csv
+sha256(results.csv)=15d66c814e92af49f312a3f50b22ca6217d3bf28fb4a0ad4a789359b8b9996f7
+wrote NS-2026-06-answer.zip

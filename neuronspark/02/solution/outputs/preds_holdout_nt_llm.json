@@ -1,0 +1,231 @@
+[
+  {
+    "id": "train_0375",
+    "answer": "不能外借",
+    "citations": [
+      "LIB-RARE-001"
+    ]
+  },
+  {
+    "id": "train_0376",
+    "answer": "7天",
+    "citations": [
+      "LIB-ROOM-001"
+    ]
+  },
+  {
+    "id": "train_0379",
+    "answer": "45天",
+    "citations": [
+      "ACCESS-LIB-001"
+    ]
+  },
+  {
+    "id": "train_0383",
+    "answer": "A2",
+    "citations": [
+      "CLUB-POSTER-001"
+    ]
+  },
+  {
+    "id": "train_0384",
+    "answer": "不能外借",
+    "citations": [
+      "LIB-RARE-001"
+    ]
+  },
+  {
+    "id": "train_0385",
+    "answer": "12个月",
+    "citations": [
+      "LAB-CHEM-001"
+    ]
+  },
+  {
+    "id": "train_0387",
+    "answer": "登记过的加密U盘",
+    "citations": [
+      "NET-DATA-001"
+    ]
+  },
+  {
+    "id": "train_0393",
+    "answer": "0.20元",
+    "citations": [
+      "LIB-BORROW-002"
+    ]
+  },
+  {
+    "id": "train_0402",
+    "answer": "10:00",
+    "citations": [
+      "COURSE-WAIT-001"
+    ]
+  },
+  {
+    "id": "train_0405",
+    "answer": "不能",
+    "citations": [
+      "LAB-LN2-001"
+    ]
+  },
+  {
+    "id": "train_0407",
+    "answer": "2次",
+    "citations": [
+      "SPORT-COURT-001"
+    ]
+  },
+  {
+    "id": "train_0409",
+    "answer": "40人",
+    "citations": [
+      "CLUB-ROOM-001"
+    ]
+  },
+  {
+    "id": "train_0411",
+    "answer": "14天",
+    "citations": [
+      "LIB-BORROW-002"
+    ]
+  },
+  {
+    "id": "train_0414",
+    "answer": "A2",
+    "citations": [
+      "CLUB-POSTER-001"
+    ]
+  },
+  {
+    "id": "train_0416",
+    "answer": "1台",
+    "citations": [
+      "EQUIP-LAPTOP-001"
+    ]
+  },
+  {
+    "id": "train_0422",
+    "answer": "至少提前2小时",
+    "citations": [
+      "LIB-ROOM-002"
+    ]
+  },
+  {
+    "id": "train_0423",
+    "answer": "双人审批；手机封存",
+    "citations": [
+      "QUARTZ-DATA-001",
+      "QUARTZ-DATA-002"
+    ]
+  },
+  {
+    "id": "train_0424",
+    "answer": "7天",
+    "citations": [
+      "SPORT-COURT-001"
+    ]
+  },
+  {
+    "id": "train_0426",
+    "answer": "5台",
+    "citations": [
+      "NET-WIFI-001"
+    ]
+  },
+  {
+    "id": "train_0433",
+    "answer": "2次",
+    "citations": [
+      "LIB-BORROW-001",
+      "LIB-BORROW-002"
+    ]
+  },
+  {
+    "id": "train_0436",
+    "answer": "22:30至次日7:00",
+    "citations": [
+      "DORM-QUIET-001"
+    ]
+  },
+  {
+    "id": "train_0445",
+    "answer": "提前5个工作日",
+    "citations": [
+      "NET-DATA-001"
+    ]
+  },
+  {
+    "id": "train_0448",
+    "answer": "学校VPN",
+    "citations": [
+      "NET-VPN-001"
+    ]
+  },
+  {
+    "id": "train_0449",
+    "answer": "当天",
+    "citations": [
+      "SPORT-POOL-001"
+    ]
+  },
+  {
+    "id": "train_0451",
+    "answer": "至少提前2个工作日",
+    "citations": [
+      "LIB-RARE-001"
+    ]
+  },
+  {
+    "id": "train_0452",
+    "answer": "2个工作日",
+    "citations": [
+      "ARCH-CERT-001"
+    ]
+  },
+  {
+    "id": "train_0456",
+    "answer": "7天",
+    "citations": [
+      "SPORT-COURT-001",
+      "LIB-ROOM-002"
+    ]
+  },
+  {
+    "id": "train_0458",
+    "answer": "1个工作日；2天",
+    "citations": [
+      "EQUIP-CAMERA-001",
+      "EQUIP-CAMERA-OLD"
+    ]
+  },
+  {
+    "id": "train_0459",
+    "answer": "24小时内",
+    "citations": [
+      "COURSE-WAIT-001"
+    ]
+  },
+  {
+    "id": "train_0460",
+    "answer": "学校VPN",
+    "citations": [
+      "NET-VPN-001"
+    ]
+  },
+  {
+    "id": "train_0464",
+    "answer": "2次",
+    "citations": [
+      "SPORT-COURT-001"
+    ]
+  },
+  {
+    "id": "train_0465",
+    "answer": "可以；超过2个单元",
+    "citations": [
+      "CYAN-BIO-001",
+      "CYAN-BIO-002"
+    ]
+  }
+]

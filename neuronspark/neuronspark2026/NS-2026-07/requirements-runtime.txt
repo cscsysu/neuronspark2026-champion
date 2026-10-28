@@ -1,0 +1,7 @@
+# Official hidden runtime contract for model submissions.
+# Use a matching PyTorch CUDA 12.8 wheel source when reproducing locally.
+torch==2.11.0+cu128
+numpy==2.4.6
+mujoco==3.3.7
+scipy==1.17.1
+tqdm==4.67.3

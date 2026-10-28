@@ -1,0 +1,21 @@
+<mujoco model="ns202607_mujoco_devsim">
+  <compiler angle="radian" coordinate="local"/>
+  <option timestep="0.005" gravity="0 0 -9.81" integrator="Euler" cone="elliptic"/>
+  <size nconmax="64" njmax="256"/>
+  <default>
+    <geom solref="0.018 1" solimp="0.90 0.96 0.001" condim="4"/>
+  </default>
+  <asset>
+    <material name="floor_mat" rgba="0.42 0.44 0.40 1"/>
+    <material name="object_mat" rgba="0.77 0.39 0.22 1"/>
+  </asset>
+  <worldbody>
+    <light name="top" pos="0 0 1.6"/>
+    <geom name="floor" type="plane" pos="0 0 0" size="1.6 1.6 0.04" material="floor_mat" friction="0.18256 0.025 0.0002"/>
+    <body name="object" pos="0.16150 0.34120 0.02500">
+      <freejoint name="object_free"/>
+      <geom name="object_geom" type="box" size="0.03008 0.02538 0.01692" mass="0.84125" material="object_mat" friction="0.21228 0.030 0.0002"/>
+      <site name="tactile_patch" pos="0 0 0.01692" size="0.01504" rgba="0.1 0.6 0.9 0.35"/>
+    </body>
+  </worldbody>
+</mujoco>

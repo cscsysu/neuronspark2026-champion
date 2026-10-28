@@ -1,0 +1,196 @@
+{
+  "schema_version": "ns2026_06_v1",
+  "random_seed": 260606,
+  "feature_count": 96,
+  "train_rows": 6015,
+  "trusted_valid_rows": 1031,
+  "test_rows": 1547,
+  "label_count": 6,
+  "source_group_count": 10,
+  "annotator_group_count": 6,
+  "weak_label_noise_range": "approximately 15%-25% overall; source and annotator groups are intentionally uneven",
+  "weak_label_noise_band": "medium",
+  "source_group_public_summary": {
+    "sg_00": {
+      "rows": 590,
+      "top_weak_labels": [
+        [
+          "mobility_vehicle",
+          487
+        ],
+        [
+          "sports_recreation",
+          76
+        ],
+        [
+          "computer_hardware",
+          23
+        ]
+      ],
+      "mean_weak_confidence": 0.8208
+    },
+    "sg_01": {
+      "rows": 589,
+      "top_weak_labels": [
+        [
+          "system_software",
+          441
+        ],
+        [
+          "computer_hardware",
+          95
+        ],
+        [
+          "space_science",
+          41
+        ]
+      ],
+      "mean_weak_confidence": 0.7861
+    },
+    "sg_02": {
+      "rows": 616,
+      "top_weak_labels": [
+        [
+          "space_science",
+          491
+        ],
+        [
+          "medical_health",
+          79
+        ],
+        [
+          "system_software",
+          36
+        ]
+      ],
+      "mean_weak_confidence": 0.7897
+    },
+    "sg_03": {
+      "rows": 587,
+      "top_weak_labels": [
+        [
+          "computer_hardware",
+          449
+        ],
+        [
+          "system_software",
+          101
+        ],
+        [
+          "space_science",
+          28
+        ]
+      ],
+      "mean_weak_confidence": 0.7834
+    },
+    "sg_04": {
+      "rows": 563,
+      "top_weak_labels": [
+        [
+          "mobility_vehicle",
+          429
+        ],
+        [
+          "sports_recreation",
+          96
+        ],
+        [
+          "computer_hardware",
+          28
+        ]
+      ],
+      "mean_weak_confidence": 0.7747
+    },
+    "sg_05": {
+      "rows": 630,
+      "top_weak_labels": [
+        [
+          "medical_health",
+          474
+        ],
+        [
+          "space_science",
+          114
+        ],
+        [
+          "sports_recreation",
+          30
+        ]
+      ],
+      "mean_weak_confidence": 0.7692
+    },
+    "sg_06": {
+      "rows": 627,
+      "top_weak_labels": [
+        [
+          "computer_hardware",
+          502
+        ],
+        [
+          "system_software",
+          84
+        ],
+        [
+          "space_science",
+          32
+        ]
+      ],
+      "mean_weak_confidence": 0.7987
+    },
+    "sg_07": {
+      "rows": 627,
+      "top_weak_labels": [
+        [
+          "system_software",
+          461
+        ],
+        [
+          "computer_hardware",
+          113
+        ],
+        [
+          "space_science",
+          45
+        ]
+      ],
+      "mean_weak_confidence": 0.7708
+    },
+    "sg_08": {
+      "rows": 612,
+      "top_weak_labels": [
+        [
+          "sports_recreation",
+          495
+        ],
+        [
+          "mobility_vehicle",
+          81
+        ],
+        [
+          "space_science",
+          28
+        ]
+      ],
+      "mean_weak_confidence": 0.8101
+    },
+    "sg_09": {
+      "rows": 574,
+      "top_weak_labels": [
+        [
+          "sports_recreation",
+          474
+        ],
+        [
+          "mobility_vehicle",
+          63
+        ],
+        [
+          "space_science",
+          31
+        ]
+      ],
+      "mean_weak_confidence": 0.8039
+    }
+  },
+  "anti_retrieval_public_note": "Public files contain no raw text, filenames, original category names or original sample ids. Dense features are TF-IDF/SVD projections fitted on train texts, standardized, randomly rotated, perturbed and rounded."
+}

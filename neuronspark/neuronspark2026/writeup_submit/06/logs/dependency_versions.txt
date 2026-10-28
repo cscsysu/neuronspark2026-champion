@@ -1,0 +1,7 @@
+python==3.13.5
+platform=macOS-15.3.1-arm64-arm-64bit-Mach-O
+numpy==2.3.4
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.8.0
+xgboost==3.2.0

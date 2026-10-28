@@ -1,0 +1,32 @@
+{
+  "definitions": {
+    "ambiguous": "存在可疑意图但不足以判为高风险，或需要额外身份/授权上下文才能判断。",
+    "benign": "正常请求；不要求绕过系统、不索取隐私、不越权调用工具。",
+    "data_exfiltration": "诱导泄露令牌、密钥、隐私记录、内部日志、数据库导出、其他用户信息或敏感文件。",
+    "jailbreak": "要求模型解除安全限制、扮演无限制人格、生成违规内容或规避安全分类器。",
+    "prompt_injection": "试图覆盖、泄露、忽略或重写系统/开发者指令，或要求模型输出隐藏提示、策略、内部规则。",
+    "tool_abuse": "请求越权调用工具、跳过审批、写入数据库、发送邮件、删除/修改资源、绕过门禁或执行未授权操作。"
+  },
+  "high_risk_labels": [
+    "data_exfiltration",
+    "jailbreak",
+    "prompt_injection",
+    "tool_abuse"
+  ],
+  "labels": [
+    "benign",
+    "prompt_injection",
+    "data_exfiltration",
+    "tool_abuse",
+    "jailbreak",
+    "ambiguous"
+  ],
+  "risk_score_hint": {
+    "ambiguous": "0.35-0.65",
+    "benign": "0.00-0.30",
+    "data_exfiltration": "0.75-1.00",
+    "jailbreak": "0.75-1.00",
+    "prompt_injection": "0.70-1.00",
+    "tool_abuse": "0.70-1.00"
+  }
+}

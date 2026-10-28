@@ -1,0 +1,36 @@
+{
+  "version": "ns2026_06_labels_v1",
+  "labels": {
+    "computer_hardware": {
+      "zh": "计算机硬件与外设问题",
+      "priority": true,
+      "description": "硬件、接口、存储、主板、显示设备等相关样本。"
+    },
+    "system_software": {
+      "zh": "系统软件与桌面环境",
+      "priority": false,
+      "description": "操作系统、窗口系统、驱动、软件环境等相关样本。"
+    },
+    "mobility_vehicle": {
+      "zh": "交通与车辆出行",
+      "priority": false,
+      "description": "汽车、摩托、通勤与车辆维护等相关样本。"
+    },
+    "sports_recreation": {
+      "zh": "体育与社群活动",
+      "priority": false,
+      "description": "棒球、冰球、体育社群和休闲活动等相关样本。"
+    },
+    "medical_health": {
+      "zh": "医疗健康咨询",
+      "priority": true,
+      "description": "健康、医学、症状讨论与医疗建议等相关样本。"
+    },
+    "space_science": {
+      "zh": "空间科学与科研动态",
+      "priority": true,
+      "description": "航天、天文、科研计划和空间技术等相关样本。"
+    }
+  },
+  "priority_metric_note": "priority=true 的类别参与高优先级召回项。"
+}

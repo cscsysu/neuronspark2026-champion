@@ -1,0 +1,37 @@
+{
+  "score": 355.250671543,
+  "mean_score01": 0.236833781,
+  "raw_task_mean_score01": 0.256367657,
+  "mean_success_rate": 0.142361111,
+  "task_count": 360,
+  "action_error_count": 0,
+  "task_type_mean_score01": {
+    "nonprehensile_relocation": 0.230877,
+    "resource_sequence": 0.218094,
+    "tool_use": 0.325642
+  },
+  "capability_tier_mean_score01": {
+    "cross_condition_generalization": 0.256732,
+    "tactile_slip_recovery": 0.191109
+  },
+  "capability_tier_min_score01": 0.191109,
+  "object_family_mean_score01": {
+    "curved": 0.235769,
+    "deformable_or_asymmetric": 0.273581,
+    "prismatic": 0.284474
+  },
+  "environment_mean_score01": {
+    "low_dust_glass": 0.230782,
+    "low_rim_fixture": 0.223819,
+    "matte_table": 0.295462,
+    "micro_ridge_pad": 0.259722,
+    "soft_damping_pad": 0.283223,
+    "split_texture_pad": 0.236684
+  },
+  "batched_rollout_evaluation": true,
+  "max_batch_rollouts": 64,
+  "aggregation_policy": "0.58 * task_mean + 0.24 * capability_tier_mean + 0.18 * worst_capability_tier",
+  "task_file": "/Users/tristonchen/Desktop/neuronspark2026/NS-2026-07/tasks/valid_tasks.jsonl",
+  "public_split_policy": "Public task files, including test_tasks.jsonl, are local sanity/debug splits only and must not be used as leaderboard ranking feedback.",
+  "note": "Public MuJoCo dev-simulator evaluation if mujoco is installed; otherwise lightweight proxy fallback. Public test is local sanity only and must not rank leaderboard submissions. Official hidden evaluation generates private procedural rollouts inside the judge, applies unseen object/environment/scene/physics/stage shifts and uses shortfall aggregation across withheld capability groups. Agent reset/act calls run in an isolated subprocess with per-call timeouts; optional reset_batch/act_batch may batch cross-task rollouts so GPU policies can amortize inference on the 4090D resource boundary."
+}

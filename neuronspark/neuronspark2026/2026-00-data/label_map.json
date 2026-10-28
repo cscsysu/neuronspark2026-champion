@@ -1,0 +1,26 @@
+{
+  "labels": [
+    "invoice",
+    "receipt",
+    "schedule",
+    "poster",
+    "lab_note",
+    "notice",
+    "handwritten_note",
+    "form",
+    "meeting_minutes",
+    "grade_report"
+  ],
+  "label_names_zh": {
+    "invoice": "报销发票",
+    "receipt": "消费小票",
+    "schedule": "课程或日程表",
+    "poster": "社团活动海报",
+    "lab_note": "实验记录",
+    "notice": "校园通知",
+    "handwritten_note": "手写便签",
+    "form": "申请或登记表",
+    "meeting_minutes": "会议纪要",
+    "grade_report": "成绩或学业报告"
+  }
+}

@@ -1,0 +1,5 @@
+# Runtime requirements for NS-2026-07 reproduction.
+# The agent itself only depends on Python's stdlib (math).
+# Local sim evaluation needs mujoco (matches the hidden judge's image).
+mujoco==3.3.7
+numpy==2.4.6

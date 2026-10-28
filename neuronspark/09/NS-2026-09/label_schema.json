@@ -1,0 +1,79 @@
+{
+  "grid_size": [
+    12,
+    12
+  ],
+  "local_view_size": [
+    5,
+    5
+  ],
+  "observation_mode": "sparse_egocentric_5x5_plus_event_sensors",
+  "grid_chars": [
+    "#",
+    ".",
+    "<",
+    ">",
+    "A",
+    "B",
+    "D",
+    "G",
+    "H",
+    "I",
+    "K",
+    "O",
+    "P",
+    "^",
+    "v"
+  ],
+  "observation_chars": [
+    "#",
+    ".",
+    "<",
+    ">",
+    "?",
+    "A",
+    "B",
+    "D",
+    "G",
+    "H",
+    "I",
+    "K",
+    "O",
+    "P",
+    "^",
+    "v"
+  ],
+  "event_keys": [
+    "goal_reached",
+    "collision",
+    "hazard",
+    "box_on_goal",
+    "key_collected",
+    "portal_used"
+  ],
+  "event_timeline_values": [
+    "never",
+    "early",
+    "mid",
+    "late"
+  ],
+  "event_order_width": 3,
+  "event_order_values": [
+    "goal_reached",
+    "collision",
+    "hazard",
+    "box_on_goal",
+    "key_collected",
+    "portal_used",
+    "none"
+  ],
+  "queries_per_context": 2,
+  "terminal_values": [
+    "goal",
+    "hazard",
+    "blocked",
+    "active",
+    "timeout"
+  ],
+  "result_file": "results.json"
+}
